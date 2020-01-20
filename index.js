@@ -8,5 +8,5 @@ function removeLastKitten() {
 }
 
 function prependKitten(name) {
-  return
+  return kittens.concat(name)
 }
