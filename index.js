@@ -25,3 +25,6 @@ function destructivelyRemoveLastKitten() {
 function destructivelyPrependKitten(name) {
   return kittens.unshift(name)
 }
+function destructivelyAppendKitten(name) {
+  return kittens.push(name)
+}
